@@ -25,11 +25,11 @@ Ever since I heard what *"ii's Stupid Menu"* I've always been interested in modd
 YES! But as everything good in life you *MUST* follow some simple rules
 
 - like *Poison* your project **MUST** be open source
-- GIVE. CREDIT.^1^
+- GIVE. CREDIT.[^1]
 - No Viruses/Malware
 - Follow the [GPL 3.0 LICENSE](https://www.gnu.org/licenses/gpl-3.0.html)
 
-<sub>^1^ If the script is marked in the code with a ```/* CRED: [DEV] */``` CREDIT. THAT. DEV. NOT ME</sub>
+<sub>[^1] If the script is marked in the code with a ```/* CRED: [DEV] */``` CREDIT. THAT. DEV. NOT ME</sub>
 
 </details>
 

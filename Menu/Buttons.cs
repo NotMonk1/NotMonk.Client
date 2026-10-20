@@ -46,23 +46,6 @@ namespace NotMonk_Client.Menu;
 
 public abstract class Buttons
 {
-	#region bs 
-	/*
-     * Here is where all of your buttons are located.
-     *
-     * Move to Category:
-     *   new(){buttonText = "Settings", method = () => SetCategory("Settings"), mode = ButtonMode.Action, toolTip = "Opens the main settings page for the menu."},
-     *
-     * Togglable Mod:
-     *   new(){buttonText = "Platforms", method = () => Mods.Movement.Platforms(), toolTip = "Spawns platforms on your hands when pressing grip."},
-     *
-     * Action:
-     *   new(){buttonText = "Disconnect", method = () => NetworkSystem.Instance.ReturnToSinglePlayer(), mode = ButtonMode.Action, toolTip = "Disconnects you from the room."},
-     *
-     * Incremental:
-     *   new(){buttonText = "Change Fly Speed", mode = ButtonMode.Incremental, incrementMethod = Movement.ChangeFlySpeed, displayText = () => $"Change Fly Speed [{Movement.FlySpeedName}]", toolTip = "Changes the speed of the fly mod."},
-     */
-	#endregion
 
 	private static ButtonInfo[] MainButtons =
 	{
