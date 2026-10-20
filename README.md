@@ -69,4 +69,4 @@ YES! But as everything good in life you *MUST* follow some simple rules
 > [!NOTE]
 > This Menu is not affiliated with Gorilla Tag or Another Axiom LLC and is not endorsed or funded by Another Axiom.
 > Gorilla Tag is a trademark of Another Axiom INC. I do not claim rights to any copyrighted, trademarked, or reserved terms.
-> Windows 10 & 11, Linux, And Apple icon by [Icons8](https://icons8.com)
+> Windows 10 & 11, Linux, Apple, and Branch icon by [Icons8](https://icons8.com)
