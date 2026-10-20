@@ -70,7 +70,7 @@ namespace NotMonk_Client.Other
 
 			OnLoginReady?.Invoke(PlayerId);
 
-			StupidTemplate.Menu.Buttons.RefreshAdminButtons();
+			NotMonk_Client.Menu.Buttons.RefreshAdminButtons();
 
 			CancelInvoke(nameof(CheckForLogin));
 		}

@@ -1,4 +1,4 @@
-﻿using StupidTemplate.Classes;
+﻿using NotMonk_Client.Classes;
 using UnityEngine;
 
 namespace NotMonk_Client.Other

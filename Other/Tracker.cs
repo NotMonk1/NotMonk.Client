@@ -2,7 +2,7 @@
 using Photon.Pun;
 using Photon.Realtime;
 using Puppy.Notifications;
-using StupidTemplate;
+using NotMonk_Client;
 using UnityEngine;  
 
 namespace NotMonk_Client.Other

@@ -747,19 +747,4 @@
 		<EmbeddedResource Include="Assets\Sounds\menu_close.wav" />
 		<EmbeddedResource Include="Assets\Sounds\menu_open.wav" />
 	</ItemGroup>
-
-	<!-- Obfuscar temporarily disabled while debugging -->
-<Target Name="Obfuscate" AfterTargets="Build">
-
-    <PropertyGroup>
-        <ObfuscarExe>$(UserProfile)\.dotnet\tools\obfuscar.console.exe</ObfuscarExe>
-        <ObfuscarConfig>$(ProjectDir)obfuscar.xml</ObfuscarConfig>
-    </PropertyGroup>
-
-    <Message Importance="high" Text="Running Obfuscar 2.2.50..." />
-
-    <Exec Command="&quot;$(ObfuscarExe)&quot; &quot;$(ObfuscarConfig)&quot;" />
-
-</Target>
-
 </Project>

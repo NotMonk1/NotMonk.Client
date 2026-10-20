@@ -8,7 +8,6 @@ using System.IO.Pipes;
 using System.Text;
 using System.Threading;
 using UnityEngine;
-using static Fusion.NetworkRunner;
 using Debug = UnityEngine.Debug;
 using Random = System.Random;
 
@@ -28,8 +27,6 @@ namespace NotMonk_Client.Other.DiscordRPC
 			"ミク、ミク、ミク、ゴー！",
 			"AAAAAAAAAAAAAAAAAAAAH",
 		};
-
-
 
 		private static NamedPipeClientStream pipe;
 		private static Thread worker;
@@ -197,7 +194,7 @@ namespace NotMonk_Client.Other.DiscordRPC
 
 					if (GorillaGameManager.instance != null)
 					{
-						if (StupidTemplate.Menu.Settings.RPChideRoomCode)
+						if (NotMonk_Client.Menu.Settings.RPChideRoomCode)
 						{
 							details = "In a room - " + players + "/" + maxPlayers + " - Playing " + gamemode;
 						}
